@@ -32,6 +32,7 @@ public class demo1 extends HttpServlet {
 		response.setContentType("text/html;charset=utf-8");
 		PrintWriter out = response.getWriter();
 		out.print("hello");
+		out.print("world");
 	}
 
 	/**
