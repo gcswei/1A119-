@@ -2,6 +2,7 @@
     <wb-module deploy-name="客户管理系统">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/config"/>
         <property name="context-root" value="客户管理系统"/>
         <property name="java-output-path" value="/客户管理系统/build/classes"/>
     </wb-module>
